@@ -39,3 +39,13 @@ The first step in using Git is to make sure your machine has Git installed and r
 7. There are several other operations that can be performed in Git, and it is important to be aware of what each command does, and how to safely use them. I'd advise any readers to spend time familiarizing themselves with the documentation at [Githubs Git guide](https://github.com/git-guides) before working with Git.
 
 
+## Github
+
+Github very closely resembles Git and functions as a web repository. Using their services allows you to store, and share your code with others. It's often the preffered method of collaborating in academic and professional settings.
+
+1. Using what we've learned about Git so far, you can set up a project and make some changes that you'd like to save. You'll need to make sure to make sure you're authenticated to github at the command line to begin taking on the next steps. And make sure you have an available repository on Github to push your changes to.
+2. Once you've been authorized, created a remote repository, and commited your local changes. You may use the command ```git remote add origin remoteRepositoryURL``` to set the origin.
+3. After setting the origin you may run ```git push -u origin main``` to push your main branch to github. It's important to make sure you're using the correct branch name when pushing your code, if your main branch is instead named master, use the correct name.
+4. If a collaborator has pushed some code and you'd like to pull that code into your local repository you'd use the command ```git pull```
+
+5. Git is very useful, and can be used for much more than what I've covered. It'd behoove you to learn more by checking out  [Github guides](https://github.com/git-guides)
