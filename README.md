@@ -8,11 +8,9 @@ The first step in using Git is to make sure your machine has Git installed and r
    * If Git is properly installed you should see the following information on how to use Git.
    ![Screenshot from my machine](https://github.com/user-attachments/assets/d8da964b-46d4-47d8-9a20-3189b246f73c)
    * If Git isn't installed on your machine, you may be able to install git by running the command ```sudo apt-get install git-all``` on a Linux machine. More detailed instructions on installing Git can be found on Github. [Git installation guide](https://github.com/git-guides/install-git)
-
 2. After installing git, it is important to configure Git using the command ```git config``` at the command line.
    1. Set your username by using the command ```git config --global user.name "yourUserName"``` 
    2. Set your email by using the command ```git config --global user.email "yourEmail@email.com"```
-  
 3. Using Git in a folder begins with initializing a Git repository.
    1. The first step is to have a folder created for your new project. For now we'll call this ```myProjectFolder```
    2. You'll need to make sure your in your project folder in your terminal. Use ```pwd``` to print the working directory
